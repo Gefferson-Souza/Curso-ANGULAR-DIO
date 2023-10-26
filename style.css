@@ -1,0 +1,21 @@
+.container {
+    display: grid;
+    grid-template-columns: 1 / 2;
+    grid-template-rows: 1;
+    border: 1px solid black;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    margin-left: 25%;
+
+    box-shadow: 1rem 0.5rem 5rem 1rem black ;
+}
+
+.card {
+    grid-column: 1;
+}
+
+.card-left {
+    grid-column: 2;
+}
