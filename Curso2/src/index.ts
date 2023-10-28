@@ -70,3 +70,9 @@ function addNumber(x: number, y: number): number {
 }
 
 let result: number = addNumber(1, 2);
+
+async function name1(nome:string): Promise<string> {
+    return await 'a'
+}
+
+name1('b');
