@@ -1,0 +1,10 @@
+<p>
+  {{texto}}
+</p>
+<input type="text" [value]="texto" (input)="texto = $any($event.target).value" />
+
+
+<p [style.color] = "color">
+  {{outroTexto}}
+</p>
+<input type="text" [(ngModel)]="outroTexto" />

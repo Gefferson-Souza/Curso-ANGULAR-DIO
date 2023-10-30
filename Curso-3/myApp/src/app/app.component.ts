@@ -7,6 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'myApp';
-  buttonLabel:string = "Muito Doido";
-  buttonLabel2:string = "Muito Doido DOIS";
+  buttonLabel:string = "PROPERTY BIDING";
 }

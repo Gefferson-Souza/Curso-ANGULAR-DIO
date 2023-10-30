@@ -8,10 +8,14 @@ import { Component, Input } from '@angular/core';
 })
 
 export class Button {
-  @Input() label: string ="";
+  @Input() label: string = "";
   count: number = 0;
   buttonText: string = 'ACESSAR';
   buttonArray: string[] = ['Primeiro Indice', 'Segundo Indice'];
   testArray: string = '';
+
+  getAlert() {
+    alert(this.label);
+  }
 }
 
