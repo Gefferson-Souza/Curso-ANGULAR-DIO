@@ -1,12 +1,16 @@
 <section class="menu">
   <ul>
     <li><a
-      [routerLink]="['/']"
+      [routerLink]="['']"
       [routerLinkActive]="['active']"
-      >HOME</a></li>
+      [routerLinkActiveOptions]="{exact: true}"
+      >
+      HOME
+    </a></li>
     <li><a
       [routerLink]="['/portfolio']"
       [routerLinkActive]="['active']"
-      >PORTIFOLIO</a></li>
+      >
+      PORTIFOLIO</a></li>
   </ul>
 </section>
