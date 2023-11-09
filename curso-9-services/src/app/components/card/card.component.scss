@@ -1,0 +1,44 @@
+.card{
+  border: 2px solid black;
+  display: grid;
+  justify-content: center;
+  width: 250px;
+  height: 400px;
+  margin-left: 10%;
+  border-radius: 1rem;
+  background-color: #232323;
+  grid-template-rows: repeat(6, 1fr);
+  color: white;
+
+  .card-title{
+    justify-self: center;
+    h3{
+      margin-bottom: 0;
+    }
+  }
+
+  .card-body{
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    background-color: #616161;
+    grid-row: 2/6;
+    margin: 0.5rem;
+
+    img{
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .card-status{
+    justify-self: center;
+    align-self: center;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 1rem;
+    span{
+      margin: 1rem;
+    }
+  }
+}
